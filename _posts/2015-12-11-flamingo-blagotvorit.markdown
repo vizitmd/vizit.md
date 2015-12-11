@@ -6,7 +6,7 @@ description: > #
  Fotograf - Alexandr Vizit
 city: cahul
 imgpath: /page1/
-headimg: /page1/vizitmd-1.jpg
+headimg: /page1/vizitmd-10.jpg
 photos:
     - image_name: vizitmd-22.jpg
     - image_name: vizitmd-220.jpg
