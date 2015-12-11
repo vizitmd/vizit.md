@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<section id="thumbnails">
+{% for item in page.photos %}
+    <article>
+        <a class="thumbnail" href="{{ page.imgpath | prepend: site.gclnk }}{{ item.image_name }}" data-position="center"><img src="{{ page.imgpath | prepend: site.gclnk }}{{ item.image_name }}" alt="" /></a>
+        <h2>{{ page.title }}</h2>
+        <p><a href="{{ page.imgpath | prepend: site.gclnk }}{{ item.image_name }}" download><i class="fa fa-download"></i>Скачать фото</a> - {{ item.image_name }}</p>
+    </article>
+{% endfor %}
+</section>

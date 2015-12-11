@@ -1,0 +1,10 @@
+section#thumbnails
+  {% assign city = (site.posts | where: "city" , "chisinau") %}
+  {% for post in city %}
+  article
+    a(class='thumbnail', href='{{ post.headimg  | prepend: site.gclnk }}', data-position='center')
+      img(src='{{ post.headimg  | prepend: site.gclnk }}', alt='')
+      h2
+      a(href='{{ site.baseurl }}{{ post.url }}') Смотреть отчет - {{ post.title }}
+      p {{ post.description }}
+  {% endfor %}

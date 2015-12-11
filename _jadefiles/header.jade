@@ -1,0 +1,13 @@
+header#header
+  a(href="{{ site.baseurl }}/")
+    h1 {{ site.title }}
+  section
+    select(name='forma', onchange='location = this.options[this.selectedIndex].value;')
+      option(value='') Alege orasul
+      option(value='{{ site.url }}{{ site.baseurl }}/cahul.html') Cahul
+      option(value='{{ site.url }}{{ site.baseurl }}/chisinau.html') Chisinau
+      option(value='{{ site.url }}{{ site.baseurl }}/') Toate
+  section#banner
+    article
+      a(class='banner', href='{{ site.bannerlink }}')
+        img(src='{{ site.banner  | prepend: site.baseurl }}', alt='')

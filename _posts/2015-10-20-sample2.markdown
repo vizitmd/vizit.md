@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Chisinau"
+date:   2015-10-20 08:50:21
+description: > #
+  Образец описания поста тут описание поста
+  Фотограф Вася пупкин
+city: chisinau
+imgpath: /images/fulls/
+headimg: /images/fulls/01.jpg
+photos:
+    - image_name: 01.jpg
+    - image_name: 02.jpg
+    - image_name: 04.jpg
+    - image_name: 05.jpg
+    - image_name: 03.jpg
+    - image_name: 06.jpg
+    - image_name: 07.jpg
+    - image_name: 08.jpg
+    - image_name: 09.jpg
+    - image_name: 10.jpg
+    - image_name: 11.jpg
+    - image_name: 12.jpg
+---

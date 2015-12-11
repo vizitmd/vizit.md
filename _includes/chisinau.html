@@ -1,0 +1,2 @@
+<section id="thumbnails">{% assign city = (site.posts | where: "city" , "chisinau") %}
+{% for post in city %}<article><a href="{{ post.headimg  | prepend: site.gclnk }}" data-position="center" class="thumbnail"><img src="{{ post.headimg  | prepend: site.gclnk }}" alt=""/><h2></h2><a href="{{ site.baseurl }}{{ post.url }}">Смотреть отчет - {{ post.title }}</a><p>{{ post.description }}</p></a></article>{% endfor %}</section>

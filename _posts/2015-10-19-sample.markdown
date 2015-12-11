@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Cahul"
+date:   2015-10-19 08:50:21
+description: > #
+  Образец описания поста тут описание поста
+  Фотограф Петя Пупкин
+city: cahul
+imgpath: /images/rafaelo1/
+headimg: /images/rafaelo1/vizitmd-102.jpg
+photos:
+    - image_name: vizitmd-10.jpg
+    - image_name: vizitmd-102.jpg
+    - image_name: vizitmd-106.jpg
+    - image_name: vizitmd-108.jpg
+    - image_name: vizitmd-12.jpg
+    - image_name: vizitmd-127.jpg
+    - image_name: vizitmd-13.jpg
+    - image_name: vizitmd-130.jpg
+    - image_name: vizitmd-132.jpg
+    - image_name: vizitmd-137.jpg
+    - image_name: vizitmd-139.jpg
+    - image_name: vizitmd-140.jpg
+    - image_name: vizitmd-145.jpg
+    - image_name: vizitmd-149.jpg
+    - image_name: vizitmd-151.jpg
+    - image_name: vizitmd-159.jpg
+    - image_name: vizitmd-160.jpg
+    - image_name: vizitmd-170.jpg
+    - image_name: vizitmd-173.jpg
+    - image_name: vizitmd-174.jpg
+    - image_name: vizitmd-175.jpg
+    - image_name: vizitmd-18.jpg
+    - image_name: vizitmd-183.jpg
+    - image_name: vizitmd-185.jpg
+---

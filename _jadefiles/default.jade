@@ -1,0 +1,14 @@
+doctype html
+html
+  {% include head.html%}
+  body(class='is-loading-0 is-loading-1 is-loading-2')
+    // Main
+    #main
+      // Header
+      {% include header.html%}
+      // Content
+      {{ content }}
+      // Footer
+      {% include footer.html %}
+    // Scripts
+    include scripts.html
